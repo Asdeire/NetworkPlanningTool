@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta content="width=device-width, initial-scale=1.0" name="viewport">
+    <title>Тривалість комплексу робіт</title>
+    <link href="styles/styles.css" rel="stylesheet">
+</head>
+<body>
+<h2>Введіть дані:</h2>
+<label for="criticalPathLength">Довжина критичного шляху:</label>
+<input id="criticalPathLength" type="text">
+<label for="totalResourceRequirement">Потреба у ресурсах повна:</label>
+<input id="totalResourceRequirement" type="text">
+<label for="resourceOnCriticalPath">Потреба ресурсів на критичному шляху:</label>
+<input id="resourceOnCriticalPath" type="text">
+<label for="resourceOnNonCriticalPath">Потреба ресурсів на не критичних роботах:</label>
+<input id="resourceOnNonCriticalPath" type="text">
+<label for="startDate">Призначити дату початку комплексу:</label>
+<input id="startDate" type="date">
+<button onclick="calculateDuration()">Розрахувати тривалість</button>
+<div id="result"></div>
+<script src="scripts/script.js"></script>
+</body>
+</html>
